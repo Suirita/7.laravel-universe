@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return 'Hello, Laravel!';
+    return view('welcome');
 });
 
 Route::get('/about', function () {
